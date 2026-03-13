@@ -49,7 +49,8 @@ export default function LandingPage() {
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           buttons={[
-            { text: "Start Training Today", href: "#programs" }
+            { text: "Enroll Now", href: "#programs" },
+            { text: "Start Training Today", href: "#features" }
           ]} 
           buttonAnimation="slide-up"
           carouselItems={[

@@ -48,10 +48,6 @@ export default function LandingPage() {
           tag="ELITE HOCKEY"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
-          buttons={[
-            { text: "Join Our Academy", href: "#shop" },
-            { text: "Watch Highlights", href: "#features" }
-          ]}
           buttonAnimation="slide-up"
           carouselItems={[
             { id: "carousel-1", imageSrc: "http://img.b2bpic.net/free-photo/closeup-portrait-baseball-player_23-2150885095.jpg", imageAlt: "professional ice hockey player skating fast action" },

@@ -166,8 +166,8 @@ export default function LandingPage() {
             { id: "metric-3", title: "Years of Excellence", subtitle: "Continuous Service", category: "Legacy", value: "25" },
             { id: "metric-4", title: "International Medals", subtitle: "Olympic & World Championships", category: "Global", value: "89" }
           ]}
-          titleClassName="text-4xl lg:text-5xl font-bold"
-          descriptionClassName="text-base lg:text-lg max-w-2xl"
+          textBoxTitleClassName="text-4xl lg:text-5xl font-bold"
+          textBoxDescriptionClassName="text-base lg:text-lg max-w-2xl"
         />
       </div>
 

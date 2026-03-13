@@ -139,8 +139,8 @@ export default function LandingPage() {
             { id: "goalie-pads", name: "Elite Goalie Pad Set", price: "$599.99", imageSrc: "http://img.b2bpic.net/free-photo/hockey-player-black-sportswear-white-helmet-holds-gaming-stick-grey-background_613910-9778.jpg", imageAlt: "Professional goalie pads", isFavorited: false, initialQuantity: 1 },
             { id: "skates-pro", name: "Championship Ice Skates", price: "$449.99", imageSrc: "http://img.b2bpic.net/free-psd/hockey-tournament-banner-template_23-2149195997.jpg", imageAlt: "Professional ice hockey skates", isFavorited: false, initialQuantity: 1 }
           ]}
-          titleClassName="text-4xl lg:text-5xl font-bold"
-          descriptionClassName="text-base lg:text-lg max-w-2xl"
+          textBoxTitleClassName="text-4xl lg:text-5xl font-bold"
+          textBoxDescriptionClassName="text-base lg:text-lg max-w-2xl"
         />
       </div>
 
@@ -155,7 +155,7 @@ export default function LandingPage() {
             { text: "Meet Our Champions", href: "#team" }
           ]}
           buttonAnimation="slide-up"
-          textboxLayout="centered"
+          textboxLayout="default"
           useInvertedBackground={false}
           animationType="scale-rotate"
           carouselMode="buttons"
@@ -195,8 +195,8 @@ export default function LandingPage() {
             { id: "testimonial-5", name: "Alex Kowalski", role: "Youth Academy Graduate", company: "Professional Development League", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-fitness-woman-earphones_171337-13340.jpg", imageAlt: "Alex Kowalski young athlete" },
             { id: "testimonial-6", name: "Dr. Patricia Wells", role: "Sports Medicine Director", company: "Olympic Training Center", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/caucasian-man-blazer-sitting-desk-office-with-laptop-looking-camera_1098-20318.jpg", imageAlt: "Dr. Patricia Wells sports medicine" }
           ]}
-          titleClassName="text-4xl lg:text-5xl font-bold"
-          descriptionClassName="text-base lg:text-lg max-w-2xl"
+          textBoxTitleClassName="text-4xl lg:text-5xl font-bold"
+          textBoxDescriptionClassName="text-base lg:text-lg max-w-2xl"
         />
       </div>
 
@@ -223,8 +223,8 @@ export default function LandingPage() {
             { id: "faq-5", title: "What equipment do I need to bring?", content: "We provide detailed equipment lists for each program. Most specialized equipment is available for rental at the facility. We can recommend quality gear vendors." },
             { id: "faq-6", title: "How do you track player progress?", content: "We use advanced video analysis, performance metrics, and regular skills assessments. Parents receive monthly progress reports and video highlights of their child's development." }
           ]}
-          titleClassName="text-4xl lg:text-5xl font-bold"
-          descriptionClassName="text-base lg:text-lg max-w-2xl"
+          textBoxTitleClassName="text-4xl lg:text-5xl font-bold"
+          textBoxDescriptionClassName="text-base lg:text-lg max-w-2xl"
         />
       </div>
 
